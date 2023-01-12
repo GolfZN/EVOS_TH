@@ -10,7 +10,7 @@
  
 <table class="table table-dark table-hover table table-striped table-bordered table-hover table-success" style="font-family:cursive;">
     <tr>
-      <th>cus_ID</th>
+      <th>cus_id</th>
       <th>cus_name</th>
       <th>cus_address</th>
       <th>cus_position</th>
@@ -29,7 +29,7 @@ if (mysqli_num_rows($result) > 0) {
 ?>
 
 <tr>
-      <td><?php  echo $row["cus_ID"] ?></td>
+      <td><?php  echo $row["cus_id"] ?></td>
       <td><?php  echo $row["cus_name"] ?></td>
       <td><?php  echo $row["cus_address"] ?></td>
       <td><?php  echo $row["cus_position"] ?></td>
