@@ -13,7 +13,7 @@
         <a class="nav-link active" href="customer.php">customer</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link active" href="minor.php">minor.php</a>
+        <a class="nav-link active" href="minor.php">minor</a>
       </li>
     </ul>
   </div>

@@ -17,7 +17,7 @@
 
   <!-- LOOP FOR SELECT DATA FROM DATABASE -->
 <?php
-$sql = "SELECT * FROM minor";
+$sql = "SELECT * FROM minor_depart";
 $result = mysqli_query($conn, $sql);
 
 if (mysqli_num_rows($result) > 0) {
