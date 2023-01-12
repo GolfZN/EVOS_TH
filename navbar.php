@@ -7,13 +7,13 @@
       </li>
 
       <li class="nav-item">
-        <a class="nav-link disabled" href="province.php">province</a>
+        <a class="nav-link active" href="province.php">province</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled" href="customer.php">customer</a>
+        <a class="nav-link active" href="customer.php">customer</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled" href="minor.php">minor.php</a>
+        <a class="nav-link active" href="minor.php">minor.php</a>
       </li>
     </ul>
   </div>
