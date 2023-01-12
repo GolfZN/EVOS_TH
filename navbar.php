@@ -3,7 +3,7 @@
   <div class="container-fluid">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link active" href="demo.php">Home</a>
+        <a class="nav-link active" href="index.php">Home</a>
       </li>
 
       <li class="nav-item">

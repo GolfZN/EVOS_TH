@@ -10,15 +10,14 @@
  
 <table class="table table-dark table-hover table table-striped table-bordered table-hover table-success" style="font-family:cursive;">
     <tr>
-      <th>Student ID</th>
-      <th>Name</th>
-      <th>Group ID</th>
-      <th>Level Group</th>
+      <th>PROVINCE_CODE</th>
+      <th>PROVINCE_NAME</th>
+      <th>zone_id</th>
     </tr>
 
   <!-- LOOP FOR SELECT DATA FROM DATABASE -->
 <?php
-$sql = "SELECT * FROM student3";
+$sql = "SELECT * FROM province";
 $result = mysqli_query($conn, $sql);
 
 if (mysqli_num_rows($result) > 0) {
@@ -27,10 +26,9 @@ if (mysqli_num_rows($result) > 0) {
 ?>
 
 <tr>
-      <td><?php  echo $row["student_id"] ?></td>
-      <td><?php  echo $row["name"] ?></td>
-      <td><?php  echo $row["group_id"] ?></td>
-      <td><?php  echo $row["level_group"] ?></td>
+      <td><?php  echo $row["PROVINCE_CODE"] ?></td>
+      <td><?php  echo $row["PROVINCE_NAME"] ?></td>
+      <td><?php  echo $row["zone_id"] ?></td>
     </tr>
 
 <?php
